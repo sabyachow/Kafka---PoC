@@ -1,0 +1,5 @@
+package com.learnbootkafka.config;
+
+public class KafkaConfig {
+
+}

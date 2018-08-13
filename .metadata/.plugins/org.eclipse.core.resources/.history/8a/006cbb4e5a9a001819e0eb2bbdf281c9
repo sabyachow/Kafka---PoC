@@ -1,0 +1,5 @@
+package com.learnbootkafka.controller;
+
+public class HomeController {
+
+}

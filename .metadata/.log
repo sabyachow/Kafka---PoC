@@ -1,0 +1,1352 @@
+!SESSION 2018-08-07 11:45:14.036 -----------------------------------------------
+eclipse.buildId=3.9.2.201712210947-RELEASE-e47
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide -keyring /Users/Sabyasachi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springsource.sts.ide -keyring /Users/Sabyasachi/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2018-08-07 11:45:55.546
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-08-07 11:45:55.546
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.lsp4e', id='org.eclipse.lsp4e.togglehighlight'
+
+!ENTRY org.eclipse.core.net 1 0 2018-08-07 11:45:56.255
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-08-07 11:46:02.120
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-08-07 11:46:02.120
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53c21c05,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f986031,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2018-08-07 11:46:07.364
+!MESSAGE org.eclipse.jdt.junit.ResultView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2018-08-07 11:46:07.375
+!MESSAGE org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2018-08-07 11:46:07.376
+!MESSAGE org.eclipse.contribution.xref.ui.views.XReferenceView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.jface.text 2 0 2018-08-07 11:46:10.160
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-08-07 11:46:10.161
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-08-07 11:46:17.617
+!MESSAGE No repository found at http://download.eclipse.org/usssdk/drops/nightly/N658.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-08-07 11:53:31.974
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-08-07 11:53:31.978
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 11:53:33.718
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 11:53:33.725
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.jdt.core 2 0 2018-08-07 11:54:26.755
+!MESSAGE The Java indexing could not index /Users/Sabyasachi/.m2/repository/org/glassfish/hk2/external/asm-all-repackaged/2.5.0-b42/asm-all-repackaged-2.5.0-b42.jar|module-info.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 11:54:54.072
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 11:54:54.076
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 11:54:54.520
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 11:54:54.522
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 11:55:09.083
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 11:55:09.086
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 11:55:29.632
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 11:55:29.634
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 11:56:01.019
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 11:56:01.021
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 11:56:42.249
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 11:56:42.251
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 11:56:59.395
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 11:56:59.398
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 12:02:50.178
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 12:02:50.185
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 12:02:57.356
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 12:02:57.364
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 12:03:40.206
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 12:03:40.209
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 12:03:41.667
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 12:03:41.671
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 12:04:03.462
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 12:04:03.466
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 12:04:41.248
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 12:04:41.256
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 12:05:04.590
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 12:05:04.596
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-07 12:06:16.493
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-07 12:06:16.496
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-08-08 07:16:18.706
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io: nodename nor servname provided, or not known. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-08-08 07:16:18.715
+!MESSAGE Connection to http://dist.springsource.com/release/STS/doc/updates.xml failed on dist.springsource.com: nodename nor servname provided, or not known. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-08 08:54:39.367
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-08 08:54:39.369
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-08 08:57:34.950
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-08 08:57:34.950
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-08 08:57:50.486
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-08 08:57:50.487
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-08 08:59:09.198
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-08 08:59:09.199
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-08 08:59:18.655
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-08 08:59:18.655
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-08 09:07:23.835
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-08 09:07:23.836
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-08 09:11:18.544
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-08 09:11:18.545
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-08 09:20:08.339
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-08 09:20:08.339
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-08-08 09:56:52.838
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-08-08 09:56:52.838
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/Object;Ljava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAttributes(AutoConfigurationImportSelector.java:132)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.selectImports(AutoConfigurationImportSelector.java:95)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:480)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-08-08 11:42:48.386
+!MESSAGE Connection to http://dist.springsource.com/release/STS/doc/updates.xml failed on No route to host (connect failed). Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: No route to host (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-08-08 11:42:48.899
+!MESSAGE Connection to https://spring.io/blog.atom failed on No route to host (connect failed). Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: No route to host (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientSecureProtocolSocketFactory.performConnection(ECFHttpClientSecureProtocolSocketFactory.java:96)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientSecureProtocolSocketFactory.connectSocket(ECFHttpClientSecureProtocolSocketFactory.java:77)
+	at org.apache.http.conn.scheme.SchemeLayeredSocketFactoryAdaptor2.connectSocket(SchemeLayeredSocketFactoryAdaptor2.java:62)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2018-08-08 13:54:36.537 -----------------------------------------------
+eclipse.buildId=3.9.2.201712210947-RELEASE-e47
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide -keyring /Users/Sabyasachi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springsource.sts.ide -keyring /Users/Sabyasachi/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2018-08-08 13:54:47.444
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-08-08 13:54:47.444
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.lsp4e', id='org.eclipse.lsp4e.togglehighlight'
+
+!ENTRY org.eclipse.core.net 1 0 2018-08-08 13:54:47.765
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-08-08 13:54:50.726
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-08-08 13:54:50.726
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a6d6308,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@773cc551,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-08-08 13:55:11.670
+!MESSAGE No repository found at http://download.eclipse.org/usssdk/drops/nightly/N687.
